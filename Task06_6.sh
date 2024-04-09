@@ -1,4 +1,4 @@
 #!/bin/bash
-
-sudo usermod -aG heroes kali
-id
+cat /tmp/hero_files/message.txt
+echo "New message" >> /tmp/hero_files/message.txt
+cat /tmp/hero_files/message.txt
