@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo groupadd heroes
-sudo useradd -m -G heroes hero
-sudo passwd hero
+cd /tmp
+mkdir hero_files
+echo "Hello there!" > hero_files/message.txt
