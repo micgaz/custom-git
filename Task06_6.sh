@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sudo chown hero:heroes hero_files/
-ls -la /tmp/hero_files/message.txt
-sudo chmod 770 hero_files/
-sudo chmod 660 hero_files/message.txt
+cat /tmp/hero_files/message.txt # READ operation
+echo "New message" > /tmp/hero_files/message.txt # WRITE operation
+su - hero
+whoami
+id
